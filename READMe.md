@@ -1,3 +1,3 @@
 # My Portfolio
 
-# https://daniel-ayeni.netlify.app/index.html
+# https://daniel-ayeni.netlify.app/

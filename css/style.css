@@ -149,6 +149,7 @@ img:not(.nav-logo) {
   display: block;
   object-fit: cover;
 }
+
 .btn {
   cursor: pointer;
   color: var(--white);
@@ -204,6 +205,9 @@ nav
 */
 .nav-links {
   display: none;
+}
+.nav-logo{
+  width: 8rem;
 }
 .nav {
   height: 6rem;
@@ -279,6 +283,9 @@ nav
     grid-template-columns: auto 1fr;
     align-items: center;
   }
+  .nav-logo{
+  width: 10rem;
+}
 }
 .navbar-fixed {
   position: fixed;

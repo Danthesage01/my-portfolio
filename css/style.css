@@ -248,7 +248,7 @@ nav
 .nav-btn {
   background: transparent;
   border-color: transparent;
-  font-size: 3rem;
+  font-size: 2rem;
   cursor: pointer;
   color: var(--primary-500);
   justify-self: end;

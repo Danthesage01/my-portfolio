@@ -212,6 +212,7 @@ nav
 .nav {
   height: 6rem;
   padding: 1rem;
+  padding-right: 0.5rem;
   display: grid;
   align-items: center;
   transition: var(--transition);

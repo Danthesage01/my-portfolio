@@ -220,7 +220,7 @@ nav
   box-shadow: var(--shadow-1);
 }
 .nav-img {
-  animation: bounce 4s infinite;
+  animation: bounce 2s infinite;
 }
 @keyframes bounce {
   0% {
@@ -674,6 +674,26 @@ Footer
   color: var(--primary-100);
 }
 
+.top-link {
+  font-size: 1.25rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  background: var(--primary-500);
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius);
+  color: var(--white);
+  animation: bounce 4s ease-in-out infinite;
+  visibility: hidden;
+  z-index: -100;
+}
+.show-toplink{
+    visibility: visible;
+  z-index: 100;
+}
 /* 
 ================
 Cards 
@@ -779,3 +799,6 @@ HTML & CSS Card
   column-gap: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
 }
+
+
+

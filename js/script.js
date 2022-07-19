@@ -16,12 +16,24 @@ closeBtn.addEventListener("click", (e)=>{
 
 // add fixed class to navbar
 const navbar = document.getElementById("nav")
+const topScroll = document.querySelector(".top-link")
 window.addEventListener("scroll", function () {
-  if (window.pageYOffset > 80) {
+  const scrollHeight = window.pageYOffset 
+  console.log(scrollHeight)
+  const navbarHeight = navbar.getBoundingClientRect().height
+
+  if (scrollHeight > navbarHeight) {
     navbar.classList.add("navbar-fixed");
   } else {
     navbar.classList.remove("navbar-fixed");
   }
+  if(scrollHeight > 500){
+    topScroll.classList.add("show-toplink")
+  }
+  else{
+    topScroll.classList.remove("show-toplink")
+  }
+
 });
 
 // ********** smooth scroll ************

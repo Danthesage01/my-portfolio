@@ -19,8 +19,9 @@ const navbar = document.getElementById("nav")
 const topScroll = document.querySelector(".top-link")
 window.addEventListener("scroll", function () {
   const scrollHeight = window.pageYOffset 
-  console.log(scrollHeight)
   const navbarHeight = navbar.getBoundingClientRect().height
+  
+  
 
   if (scrollHeight > navbarHeight) {
     navbar.classList.add("navbar-fixed");
@@ -46,6 +47,7 @@ scrollLinks.forEach(link => {
     const id = e.target.getAttribute("href").slice(1);
     const element = document.getElementById(id);
     let position = element.offsetTop - 62;
+
 
     window.scrollTo({
       left: 0,

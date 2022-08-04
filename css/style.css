@@ -686,9 +686,13 @@ Footer
   place-items: center;
   border-radius: var(--radius);
   color: var(--white);
-  animation: bounce 4s ease-in-out infinite;
+  animation: bounce 5s ease-in-out infinite;
   visibility: hidden;
   z-index: -100;
+}
+.top-link i{
+  font-size: 0.5rem;
+  cursor: none;
 }
 .show-toplink{
     visibility: visible;

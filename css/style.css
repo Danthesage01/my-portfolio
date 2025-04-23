@@ -607,7 +607,7 @@ Projects
     grid-template-areas:
       "a b c"
       "a d e"
-      "f g h";
+      "f h h";
     gap: 1rem;
   }
   .project-info h4 {
